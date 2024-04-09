@@ -18,6 +18,8 @@ import Gallery from "./Pages/Gallery";
 import "./assets/styles/bootstrap.custom.css";
 import "./assets/styles/index.css";
 
+import "./styles.css";
+
 const container = document.getElementById("root");
 const root = createRoot(container);
 
