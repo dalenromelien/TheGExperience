@@ -17,7 +17,7 @@ const About = () => {
             alt="Nighttime view of city"
           />
         </div>
-        <div className="flex gap-3 flex-col flex-1   py-8">
+        <div className="flex gap-3 flex-col flex-1   py-4">
           <h3 className=" text-[1.8125rem] font-bold">Our History</h3>
           <span className="text-[1rem] leading-[1.5rem]  break-normal ">
             The Gentlemen's Experience began as a vision to redefine modern
@@ -38,7 +38,7 @@ const About = () => {
       </div>
 
       <div className="flex  flex-col-reverse sm:flex-row   flex-wrap md:gap-6  w-full items-center  mb-[2rem]">
-        <div className="flex gap-3 flex-col flex-1  py-8">
+        <div className="flex gap-3 flex-col flex-1  py-4">
           <h3 className=" text-[1.8125rem] font-bold">Our Mission</h3>
           <span className="text-[1rem] leading-[1.5rem]  break-normal ">
             At The Gentlemen's Experience, our mission is to nurture a new
@@ -70,7 +70,7 @@ const About = () => {
             alt="Nighttime view of city"
           />
         </div>
-        <div className="flex gap-3 flex-col flex-1  py-8">
+        <div className="flex gap-3 flex-col flex-1  py-4">
           <h3 className=" text-[1.8125rem] font-bold">Our Vision</h3>
           <span className="text-[1rem] leading-[1.5rem]  break-normal ">
             We envision a world where the virtues of the past seamlessly blend
