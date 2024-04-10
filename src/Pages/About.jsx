@@ -9,7 +9,10 @@ const About = () => {
   return (
     <Section className="bg-black text-white">
       <h1 className=" text-center "> ABOUT US</h1>
-      <div className="flex flex-wrap md:gap-6  w-full items-center mb-[2rem]">
+      <div
+        id="Our-History"
+        className="flex flex-wrap md:gap-6  w-full items-center mb-[2rem]"
+      >
         <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
           <img
             className=" object-cover top-0 left-0 aspect-square "
@@ -37,7 +40,18 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex  flex-col-reverse sm:flex-row   flex-wrap md:gap-6  w-full items-center  mb-[2rem]">
+      <div
+        id="Our-Mission"
+        className="flex  flex-row-reverse   flex-wrap md:gap-6  w-full items-center  mb-[2rem]"
+      >
+        {" "}
+        <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
+          <img
+            className=" object-cover top-0 left-0 aspect-square"
+            src={image1}
+            alt="Nighttime view of city"
+          />
+        </div>
         <div className="flex gap-3 flex-col flex-1  py-4">
           <h3 className=" text-[1.8125rem] font-bold">Our Mission</h3>
           <span className="text-[1rem] leading-[1.5rem]  break-normal ">
@@ -54,15 +68,11 @@ const About = () => {
             but the remarkable journey that lies ahead.
           </span>
         </div>
-        <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
-          <img
-            className=" object-cover top-0 left-0 aspect-square"
-            src={image1}
-            alt="Nighttime view of city"
-          />
-        </div>
       </div>
-      <div className="flex flex-wrap md:gap-6  w-full items-center mb-[2rem]">
+      <div
+        id="Our-Vision"
+        className="flex flex-wrap md:gap-6  w-full items-center mb-[2rem]"
+      >
         <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
           <img
             className=" object-cover top-0 left-0 aspect-square "
