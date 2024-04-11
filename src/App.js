@@ -5,7 +5,6 @@ import { ToastContainer } from "react-toastify";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer";
 import "react-toastify/dist/ReactToastify.css";
-import About from "./Pages/About";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Outlet />
         </Container>
       </main>
-      <About />
       <Footer />
       <ToastContainer />
     </>

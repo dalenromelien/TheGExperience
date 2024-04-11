@@ -6,3 +6,5 @@
 
 /* Import Tailwind CSS utilities styles */
 @import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Shrikhand&display=swap");

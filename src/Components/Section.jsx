@@ -1,7 +1,7 @@
 const Section = ({ children, className }) => {
   return (
     <div
-      className={` m-auto border border-red-500 max-w-[68rem] px-3 flex flex-col justify-center  ${className}`}
+      className={` m-auto  max-w-[75rem]  px-[1.25rem]  flex flex-col justify-center  ${className}`}
     >
       {children}
     </div>
