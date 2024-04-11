@@ -9,14 +9,15 @@ const About = () => {
   return (
     <div className="w-full bg-black flex justify-center">
       <Section className="bg-black text-white">
-        <h1 className=" text-center "> ABOUT US</h1>
+        <h1 className=" text-center text-[3rem] font-oswald"> ABOUT US</h1>
         <div
           id="Our-History"
           className="flex flex-wrap md:gap-6  w-full items-center mb-[2rem]"
         >
           <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
+            <div className=" absolute border border-r-teal-500 top-0  w-full z-1  bg-gradient-to-b from-blue-700 to-black-500 opacity-[0.1] h-full"></div>
             <img
-              className=" object-cover top-0 left-0 aspect-square "
+              className=" object-cover top-0 left-0 aspect-square relative"
               src={image}
               alt="Nighttime view of city"
             />

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         oswald: ["Oswald"],
+        Inter: ["Inter"],
       },
     },
   },
