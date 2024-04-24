@@ -4,7 +4,7 @@ import SignupButton from "./SignupButton";
 
 const SignupLead = () => {
   return (
-    <div className="w-full  bg-[#545455] pb-6">
+    <div className="w-full  bg-[#545455] py-6">
       <Section className="flex flex-col justify-center  text-white  py-[2rem] gap-4  max-w-[68rem] m-auto">
         <p className=" text-[1.5rem] leading-7  font-oswald  break-normal    text-center  ">
           Unlock a world of exclusive experiences, networking opportunities, and

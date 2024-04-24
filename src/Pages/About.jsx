@@ -8,11 +8,14 @@ import image2 from "../assets/photos/boat-on-water.jpeg";
 const About = () => {
   return (
     <div className="w-full bg-black flex justify-center">
-      <Section className="bg-black text-white">
-        <h1 className=" text-center text-[3rem] font-oswald"> ABOUT US</h1>
+      <Section className="bg-black text-white py-[10rem]">
+        <h1 className=" text-center text-[3rem] font-oswald mb-[4rem]">
+          {" "}
+          ABOUT US
+        </h1>
         <div
           id="Our-History"
-          className="flex flex-wrap md:gap-6  w-full items-center mb-[2rem]"
+          className="flex flex-wrap md:gap-6  w-full items-center mb-[4rem]"
         >
           <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
             <div className=" absolute border border-r-teal-500 top-0  w-full z-1  bg-gradient-to-b from-blue-700 to-black-500 opacity-[0.1] h-full"></div>
@@ -22,7 +25,7 @@ const About = () => {
               alt="Nighttime view of city"
             />
           </div>
-          <div className="flex gap-3 flex-col flex-1   py-4">
+          <div className="flex gap-3 flex-col flex-1   py-[1rem]">
             <h3 className=" text-[1.8125rem] font-bold">Our History</h3>
             <span className="text-[1rem] leading-[1.5rem]  break-normal ">
               The Gentlemen's Experience began as a vision to redefine modern
@@ -44,7 +47,7 @@ const About = () => {
 
         <div
           id="Our-Mission"
-          className="flex  flex-row-reverse   flex-wrap md:gap-6  w-full items-center  mb-[2rem]"
+          className="flex  flex-row-reverse   flex-wrap md:gap-6  w-full items-center  mb-[4rem]"
         >
           {" "}
           <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
@@ -54,7 +57,7 @@ const About = () => {
               alt="Nighttime view of city"
             />
           </div>
-          <div className="flex gap-3 flex-col flex-1  py-4">
+          <div className="flex gap-3 flex-col flex-1  py-[1rem]">
             <h3 className=" text-[1.8125rem] font-bold">Our Mission</h3>
             <span className="text-[1rem] leading-[1.5rem]  break-normal ">
               At The Gentlemen's Experience, our mission is to nurture a new
@@ -73,7 +76,7 @@ const About = () => {
         </div>
         <div
           id="Our-Vision"
-          className="flex flex-wrap md:gap-6  w-full items-center mb-[2rem]"
+          className="flex flex-wrap md:gap-6  w-full items-center mb-[4rem]"
         >
           <div className=" relative  md:w-[33%] rounded-md overflow-hidden ">
             <img
@@ -82,7 +85,7 @@ const About = () => {
               alt="Nighttime view of city"
             />
           </div>
-          <div className="flex gap-3 flex-col flex-1  py-4">
+          <div className="flex gap-3 flex-col flex-1  py-[1rem]">
             <h3 className=" text-[1.8125rem] font-bold">Our Vision</h3>
             <span className="text-[1rem] leading-[1.5rem]  break-normal ">
               We envision a world where the virtues of the past seamlessly blend

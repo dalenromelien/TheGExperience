@@ -8,10 +8,14 @@ const Header = () => {
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
-        <Container>
+        <div className=" flex  flex-wrap px-[3rem] md:px-[4rem]  justify-between w-full items-center">
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src={logo} className="header-logo" alt="G Experience" />
+              <img
+                src={logo}
+                className=" w-[11rem]  object-cover"
+                alt="G Experience"
+              />
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,7 +32,7 @@ const Header = () => {
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
-        </Container>
+        </div>
       </Navbar>
     </header>
   );
