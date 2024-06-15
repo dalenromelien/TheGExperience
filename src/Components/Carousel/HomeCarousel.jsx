@@ -14,36 +14,22 @@ const HomeCarousel = () => {
   return (
     <div className="w-full bg-[#545454]  ">
       <Section className="py-[2rem] md:pt-[3rem]  md:pb-[8rem]  ">
-        <Carousel fade>
+        <Carousel fade indicators={false}>
           <Carousel.Item>
             <div className={imgContainerStyle}>
               <Image src={Image1} className={imgStyle} />
             </div>
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
             <div className={imgContainerStyle}>
               <Image src={Image2} className={imgStyle} />
             </div>{" "}
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <div className={imgContainerStyle}>
               <Image src={Image3} className={imgStyle} />
             </div>{" "}
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </Section>

@@ -7,13 +7,19 @@ import "./Header.css";
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        expand="md"
+        collapseOnSelect
+        className="md:h-[8rem]"
+      >
         <div className=" flex  flex-wrap px-[3rem] md:px-[4rem]  justify-between w-full items-center">
           <LinkContainer to="/">
             <Navbar.Brand>
               <img
                 src={logo}
-                className=" w-[11rem]  object-cover"
+                className=" md:w-[15rem] w-[8rem] object-cover"
                 alt="G Experience"
               />
             </Navbar.Brand>
