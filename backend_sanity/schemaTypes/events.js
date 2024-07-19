@@ -3,7 +3,7 @@ import {type} from '@testing-library/user-event/dist/cjs/utility/type.js'
 export default {
   name: 'events',
   type: 'document',
-  title: 'events',
+  title: 'Events',
   fields: [
     {
       name: 'title',
