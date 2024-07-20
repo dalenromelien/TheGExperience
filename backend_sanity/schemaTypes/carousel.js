@@ -1,29 +1,22 @@
-import {defineType} from 'sanity'
+import {type} from '@testing-library/user-event/dist/cjs/utility/type.js'
 
-export default defineType({
-  name: 'carousel',
-  type: 'array',
-  title: 'Carousel',
-  of: [
+export default {
+  name: 'carouselImage',
+  type: 'document',
+  title: 'Carousel Image',
+  fields: [
     {
+      name: 'imgUrl',
       type: 'image',
-      name: 'carouselItem',
-      title: 'Carousel Item',
-      fields: [
-        {
-          name: 'title',
-          type: 'string',
-          title: 'Title',
-        },
-        {
-          name: 'imgUrl',
-          type: 'image',
-          title: 'Image URL',
-          options: {
-            hotspot: true,
-          },
-        },
-      ],
+      options: {
+        hotspot: true,
+      },
+      title: 'Image URL',
+    },
+    {
+      name: 'caption',
+      type: 'string',
+      title: 'Caption',
     },
   ],
-})
+}
