@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import image1 from "././../assets/photos/gentlemanEvent.jpeg";
 import Section from "./../Components/Section";
+import { urlFor, client } from "../SanityClient/SanityClient";
 
 import image2 from "././../assets/photos/2024-Events-coming.png";
+
 const Events = () => {
+  const [events, setEvents] = useState({});
+
+  useEffect(() => {
+    client
+      .fetch(
+        `*[_type == 'events']{title, imgUrl, description, venue, date, signupLink}`
+      )
+      .then((events) => {
+        console.log("Events:", events);
+        // Handle your data here
+        setEvents(events);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
+
+  //  <img src={urlFor(work.imgUrl)} alt={work.name} />
+
   return (
     <div className="w-full bg-black flex flex-col  justify-center">
       <header className="w-full bg-[#545454] flex justify-center py-[0.75rem]">
